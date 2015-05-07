@@ -1,5 +1,5 @@
 <?php
-<?php namespace Orzcc\Opensearch;
+namespace Orzcc\Opensearch;
 
 use Orzcc\Opensearch\Factories\OpensearchFactory;
 use GrahamCampbell\Manager\AbstractManager;
