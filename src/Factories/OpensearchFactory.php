@@ -1,8 +1,8 @@
 <?php
 namespace Orzcc\Opensearch\Factories;
 
-use Orzcc\AliyunOpensearch\Sdk\CloudsearchClient;
-use Orzcc\AliyunOpensearch\Sdk\CloudsearchSearch;
+use Orzcc\Opensearch\Sdk\CloudsearchClient;
+use Orzcc\Opensearch\Sdk\CloudsearchSearch;
 
 class OpensearchFactory
 {
