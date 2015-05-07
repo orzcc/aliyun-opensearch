@@ -1,0 +1,24 @@
+{
+    "name": "orzcc/aliyun-opensearch",
+    "type": "library",
+    "description": "Aliyun open search for Laravel5",
+    "keywords": ["aliyun", "opensearch", "laravel"],
+    "homepage": "https://github.com/orzcc/aliyun-opensearch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "orzcc",
+            "email": "orzcczh@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.4.0",
+      "illuminate/contracts": "5.0.*",
+      "illuminate/support": "5.0.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Orzcc\\Opensearch\\": "src/"
+      }
+    }
+}
