@@ -211,7 +211,7 @@ class CloudsearchSearch {
    * 可能有一下内容：
    * query：指定的搜索查询串，可以为query=>"索引名:'鲜花'"。
    * indexes: 指定的搜索应用，可以为一个应用，也可以多个应用查询。
-   * fetch_fetches: 设定返回的字段列表，如果只返回url和title，则为 array('url', 'title')。
+   * fetch_field: 设定返回的字段列表，如果只返回url和title，则为 array('url', 'title')。
    * format：指定返回的数据格式，有json,xml和protobuf三种格式可选。
    * formula_name：指定的表达式名称，此名称需在网站中设定。
    * summary：指定summary字段一些标红、省略、截断等规则。
