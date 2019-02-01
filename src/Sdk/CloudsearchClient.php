@@ -315,7 +315,7 @@ class CloudsearchClient {
         foreach($params as $key => $val) {
             $arg .= $this->_percentEncode($key) . "=" . $this->_percentEncode($val) . "&";
         }
-      $query = substr($arg, 0, count($arg) - 2);
+      $query = substr($arg, 0, strlen($arg) - 2);
     }
     $base_string = strtoupper($method).'&%2F&' .$this->_percentEncode($query);
     return base64_encode(hash_hmac('sha1', $base_string, $this->secret."&", true));
